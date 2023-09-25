@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+
+nav{
+    background-color: rgba(24, 24, 24, 0.562);
+    
+}
+
+header nav ul li a{
+    color: white;
+}
+
+.banner{
+    background-size: cover;
+    width: 100%;
+    height: 680px;
+}
+.btext{
+    position: absolute;
+    top: 55%;
+}
+
+.hhover:hover{
+    box-shadow: 5px 5px 100px rgb(168, 168, 168);
+}
+.bttn{
+    color: white;
+    background-color: rgb(126, 96, 0);
+    
+}
+
+.bttn:hover{
+    background-color: rgb(173, 146, 58);
+    
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+/* Style for the image when hovered */
+.image-container:hover img {
+    transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+
+.goback{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: rgb(255, 132, 17);
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
