@@ -28,10 +28,7 @@ header nav ul li a{
     font-weight:700;
 }
 
-.head1{
-    font-size: 35px;
-    font-weight:800;
-}
+
 
 .hhover:hover{
     box-shadow: 5px 5px 100px rgb(168, 168, 168);
@@ -89,9 +86,9 @@ header nav ul li a{
 
     .btext{
         position: absolute;
-        top: 30%;
+        top: 24%;
         left: 10px;
-        font-size: 15px;
+        font-size: 13px;
     }
     .para1{
         font-size: 15px;
@@ -107,9 +104,10 @@ header nav ul li a{
     .hiddenimage{
         margin-top: -150px;
     }
-    .modalimg{
-        top: 150px;
-    }
+    
+  
+
+
     .goback{
         position: fixed;
         bottom: 30px;
